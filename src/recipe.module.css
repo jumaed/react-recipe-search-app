@@ -1,0 +1,41 @@
+h4 {
+  margin-bottom: 0;
+}
+.recipe {
+  border-radius: 20px;
+  box-shadow: 0px 5px 20px rgb(15, 15, 15);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 40%;
+  padding: 20px 50px;
+  background-image: linear-gradient(
+    to top,
+    #f3e7e9 0%,
+    #e3eeff 99%,
+    #e3eeff 100%
+  );
+}
+
+.image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .recipe {
+    border-radius: 15px;
+    margin: 10px;
+    min-width: 65%;
+    padding: 0 10px 20px 10px;
+  }
+}
